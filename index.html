@@ -3,426 +3,268 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>新谷隼人さまへの特別ご提案 | morich</title>
+    <title>新谷隼人 様 | 特別選考・企業紹介</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap');
-        body { font-family: 'Noto Sans JP', sans-serif; background-color: #fcfcfc; color: #334155; scroll-behavior: smooth; }
-        
-        /* morich Brand Color */
-        :root { --morich-red: #E60012; --morich-red-dark: #b3000e; }
-        
-        .bg-morich { background-color: var(--morich-red); }
-        .text-morich { color: var(--morich-red); }
-        .border-morich { border-color: var(--morich-red); }
-
-        /* Navigation */
-        .company-section { scroll-margin-top: 100px; }
-        .nav-link { color: #64748b; font-weight: 700; font-size: 0.8rem; padding: 0.6rem 1rem; white-space: nowrap; transition: 0.2s; border-radius: 0.5rem; }
-        .nav-link:hover { color: var(--morich-red); background-color: #fff1f2; }
-
-        /* Content Card */
-        .company-card { background: #fff; border-radius: 1.25rem; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05); border: 1px solid #f1f5f9; overflow: hidden; }
-        .recommendation-box { background-color: #fff1f2; border-left: 6px solid var(--morich-red); padding: 2rem; border-radius: 0.75rem; margin: 2rem 0; }
-        .ceo-profile { background-color: #f8fafc; border: 1px solid #e2e8f0; padding: 1.5rem; border-radius: 1rem; }
-        
-        /* Badges */
-        .badge { display: inline-block; padding: 0.35rem 0.85rem; border-radius: 0.375rem; font-size: 0.75rem; font-weight: 800; margin-right: 0.5rem; margin-bottom: 0.5rem; letter-spacing: 0.025em; }
-        .badge-red { background-color: var(--morich-red); color: white; }
-        .badge-dark { background-color: #1e293b; color: white; }
-        .badge-blue { background-color: #2563eb; color: white; }
-        .badge-green { background-color: #059669; color: white; }
-
-        /* Typography Styles (Updated) */
-        h3 { font-size: 1.25rem; font-weight: 700; color: #1e293b; margin-top: 2rem; margin-bottom: 1rem; display: flex; align-items: center; }
-        h3::before { content: ''; width: 4px; height: 1.25rem; background: var(--morich-red); display: inline-block; margin-right: 0.75rem; border-radius: 2px; }
-        p { line-height: 1.9; margin-bottom: 1.25rem; font-size: 1rem; color: #475569; }
-        .important-text { color: var(--morich-red-dark); font-weight: 700; }
+        body { font-family: 'Noto Sans JP', sans-serif; background-color: #f9fafb; color: #333; }
+        .morich-red { color: #E60012; }
+        .bg-morich-red { background-color: #E60012; }
+        .corporate-overview-box { background-color: #f0f4f8; border-left: 4px solid #E60012; }
+        .morich-highlight { border: 2px solid #E60012; background-color: #fffafa; padding: 1.5rem; border-radius: 8px; position: relative; }
+        .morich-highlight::before { content: "morichオススメPoint"; position: absolute; top: -12px; left: 20px; background: #E60012; color: #fff; padding: 2px 12px; font-size: 0.8rem; font-weight: bold; border-radius: 4px; }
+        .nav-link { transition: all 0.3s ease; }
+        .nav-link:hover { background-color: #E60012; color: white; }
     </style>
 </head>
-<body>
+<body class="pb-20">
 
-    <header class="bg-morich text-white pt-12 pb-24 px-6 shadow-xl relative overflow-hidden">
-        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 relative z-10">
-            <div class="flex-1 text-center md:text-left">
-                <img src="morich_logo.jpg" alt="morich" class="h-20 w-20 md:h-24 md:w-24 rounded-lg shadow-lg mb-6 mx-auto md:mx-0 bg-white p-1">
-                <h1 class="text-3xl md:text-5xl font-black mb-4 tracking-tighter">新谷隼人さまへの特別ご提案</h1>
-                <p class="text-red-100 font-medium max-w-2xl leading-relaxed">
-                    本ページは、新谷様へ向けた非公開のページです。 </p>
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center">
+            <img src="morich_logo.jpg" alt="morich logo" class="h-10">
+            <div class="text-right">
+                <p class="text-xs text-gray-500">Candidate Exclusive</p>
+                <p class="font-bold text-lg">新谷 隼人 様</p>
             </div>
         </div>
     </header>
 
-    <nav class="sticky top-0 bg-white/95 backdrop-blur-md shadow-md z-50 border-b overflow-x-auto py-3">
-        <div class="max-w-7xl mx-auto flex px-4 md:justify-center">
-            <a href="#en" class="nav-link">01.エン</a>
-            <a href="#cancer" class="nav-link">02.キャンサー</a>
-            <a href="#cpa" class="nav-link">03.CPA</a>
-            <a href="#zige" class="nav-link">04.じげん</a>
-            <a href="#cuc" class="nav-link">05.CUC</a>
-            <a href="#onodera" class="nav-link">06.ONODERA</a>
-            <a href="#voicy" class="nav-link">07.Voicy</a>
-            <a href="#relive" class="nav-link">08.りらいぶ</a>
-            <a href="#lvn" class="nav-link">09.リビン</a>
-            <a href="#m3" class="nav-link">10.M3</a>
+    <nav class="max-w-5xl mx-auto px-4 py-6">
+        <div class="bg-white p-4 rounded-lg shadow-sm">
+            <p class="text-sm font-bold mb-3 text-gray-600">ご紹介企業（クリックで移動）</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-2">
+                <a href="#company1" class="nav-link border border-gray-200 p-2 text-sm rounded text-center font-medium">1. 株式会社コメダ</a>
+                <a href="#company2" class="nav-link border border-gray-200 p-2 text-sm rounded text-center font-medium">2. ベネッセスタイルケアG</a>
+                <a href="#company3" class="nav-link border border-gray-200 p-2 text-sm rounded text-center font-medium">3. ONODERA USER RUN</a>
+                <a href="#company4" class="nav-link border border-gray-200 p-2 text-sm rounded text-center font-medium">4. エン株式会社</a>
+                <a href="#company5" class="nav-link border border-gray-200 p-2 text-sm rounded text-center font-medium">5. 株式会社シーユーシー</a>
+            </div>
         </div>
     </nav>
 
-    <main class="max-w-5xl mx-auto py-16 px-4 space-y-32">
+    <main class="max-w-5xl mx-auto px-4 space-y-20">
 
-        <section id="en" class="company-section company-card">
-            <div class="p-8 md:p-12">
-                <div class="mb-6">
-                    <span class="badge badge-red">全方位 積極採用中</span>
-                    <span class="badge badge-dark">経営幹部候補</span>
-                    <span class="badge badge-dark">CSA経営</span>
+        <section id="company1" class="bg-white p-6 md:p-10 rounded-2xl shadow-lg border border-gray-100">
+            <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold">経営幹部候補</span>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-black mb-6 leading-tight">株式会社コメダ</h2>
+            
+            <div class="corporate-overview-box p-6 rounded-lg mb-8">
+                <h3 class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-wider">Corporate Overview</h3>
+                <table class="w-full text-sm">
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32">本社住所</th><td class="py-2">愛知県名古屋市東区葵三丁目12番23号</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">設立</th><td class="py-2">1975年8月（創業：1968年）</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">従業員数</th><td class="py-2">422名（連結：2024年2月末現在）</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">上場区分</th><td class="py-2">東証プライム・名証プレミア</td></tr>
+                </table>
+            </div>
+
+            <div class="space-y-6 text-gray-700 leading-relaxed mb-8">
+                <p>1968年創業。個人経営の喫茶店から始まり、1975年8月に株式会社コメダ珈琲店を設立。1993年4月にFC展開を本格化し株式会社コメダを設立されました。<br><br>
+                2014年に持株会社である株式会社コメダホールディングスが設立され、2016年6月に東京証券取引所市場第一部に上場。12月に名古屋証券取引所第一部へ上場しています。（現在はプライム市場）<br><br>
+                現在、『珈琲所コメダ珈琲店』899店舗と、和風喫茶の『甘味喫茶おかげ庵』11店舗を展開。更に新しい業務形態として、ベーカリー型店舗『石窯パン工房ADEMOK』を沖縄県・南風原に1店舗、新業態の喫茶店『KOMEDA is □』（コメダイズ）を東京・東銀座に1店舗展開しています。<br><br>
+                1968年の創業以来、 ″珈琲を大切にする心から” を信条に喫茶文化の根強い名古屋を中心に“くつろぎの場”を提供しています。フルサービス型喫茶店の全国チェーン展開として、店舗数・売上高は日本最大級となっています。くつろげる店づくり・自社製造商品・独自のFC運営システム等の強みにより、市場で独自のポジションを築いています。</p>
+            </div>
+
+            <div class="morich-highlight mb-8">
+                <p class="text-gray-800">日本を代表する喫茶文化の担い手。圧倒的なブランド力と独自のFCモデルで高収益を実現しています。安定基盤の上で次なる成長を牽引する、非常に魅力的なフェーズでの参画となります。</p>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg mb-8">
+                <h4 class="font-bold border-b-2 border-gray-300 mb-4 pb-1">代表プロフィール</h4>
+                <div class="space-y-4 text-sm">
+                    <p><strong>代表取締役社長　甘利 祐一 氏</strong><br>
+                    1985年三和銀行(現三菱UFJ銀行)入行。サミー、タイヨーエレック代表取締役社長、セガサミーHD取締役等を経て2019年コメダ顧問。2022年5月代表取締役社長就任。</p>
+                    <p><strong>代表取締役会長　臼井 興胤 氏</strong><br>
+                    三和銀行、セガ、ナイキ、日本マクドナルドCOO、セガ社長、グルーポン東アジア統括副社長を歴任。2013年コメダ社長就任、2022年より会長職。</p>
                 </div>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-8 tracking-tight leading-tight">
-                    01. エン株式会社<br class="md:hidden"><span class="text-2xl md:text-3xl">（旧：エン・ジャパン株式会社）</span>
-                </h2>
-                
-                <div class="mt-8">
-                    <p>「人と企業のより良い出会いを支援する」というミッションのもと、インターネットを活用した求人・転職支援サービスを展開するリーディングカンパニーです。2000年の創業以来、業界を牽引し続け、現在では【エン転職】をはじめとする多彩なプラットフォームを運営。特に、企業の採用成功だけでなく、「入社後の活躍」にも焦点を当てた独自の支援が特徴です。</p>
-                    
-                    <h3>核心となる「CSA経営」</h3>
-                    <p>創業者であり代表取締役社長である越智通勝氏は、独自の経営哲学「CSA（Career Selectability＝キャリア自己選択能力）経営」を提唱・実践されていて、その思想の深さが注目されています。これは、「縁あって入社した社員が、どこへ行っても活躍できる能力を身につけられるように支援する」という思想に基づいています。</p>
-                    <p>このCSA経営を「7つの考え方」「20の能力」「4つの環境」という方程式で解説し、社員を企業の成長を牽引する人材へと育て上げる具体的な方法を、エン・ジャパンの実例を交えて紹介しています。</p>
+            </div>
 
-                    <div class="recommendation-box">
-                        <h4 class="text-xl font-black mb-4 flex items-center"><img src="morich_logo.jpg" class="h-6 w-6 mr-2 rounded">morichのオススメPOINT</h4>
-                        <p class="important-text">大変革期にあたり、全方位で積極採用中です。経営幹部として、共に汗を流していただける方をお待ちしています。</p>
-                        <p>創業から拡大してきた越智氏の経営ノウハウを惜しみなく伝えていきたいと伺っております。まずは一度お話を聞いていただけますと幸いです。</p>
-                        <p class="text-sm bg-white/50 p-4 rounded mt-4 border border-red-100">
-                            <strong>【ご面談前の重要事項】</strong><br>
-                            越智氏との面談前に、著書『エン・ジャパンの飛躍を支えたCSA経営』のご一読をお願いいたします。※【CSA経営】に感心していただける方が大前提となります。
-                        </p>
-                        <p class="mt-4 text-sm italic">★2025年8月にエンワールド・ジャパン代表に就任された方は弊社を通じて決まった方です。お人柄も抜群に素敵な方です！</p>
-                    </div>
-
-                    <div class="ceo-profile">
-                        <h4 class="font-bold text-slate-800 mb-2">代表取締役社長　越智 通勝 氏</h4>
-                        <p class="text-sm">大手教育コンサル会社を経て1983年に日本ブレーンセンター設立。2000年にエン・ジャパンを独立させ、設立からわずか1年6カ月で上場を果たすなど、同社の飛躍的な成長を牽引。社員一人ひとりの成長に真摯に向き合う信念の経営者です。</p>
-                    </div>
-                    <div class="mt-10 pt-6 border-t flex flex-wrap gap-6">
-                        <a href="https://corp.en-japan.com/profile/" target="_blank" class="font-bold text-morich hover:underline">企業サイトを見る <i class="fas fa-external-link-alt ml-1"></i></a>
-                        <a href="https://amzn.asia/d/b50VGa3" target="_blank" class="font-bold text-morich hover:underline">著書（Amazon） <i class="fas fa-book ml-1"></i></a>
-                    </div>
-                </div>
+            <div class="flex flex-wrap gap-4">
+                <a href="https://www.komeda.co.jp/company/outline.html" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ 企業公式サイト</a>
+                <a href="https://www.komeda.co.jp/company/aboutus.html" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ コメダについて</a>
             </div>
         </section>
 
-        <section id="cancer" class="company-section company-card">
-            <div class="p-8 md:p-12">
-                <div class="mb-6">
-                    <span class="badge badge-red">社長候補</span>
-                    <span class="badge badge-green">第二創業期</span>
-                    <span class="badge badge-dark">予防医療事業</span>
-                </div>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-8 tracking-tight">
-                    02. 株式会社キャンサースキャン
-                </h2>
-                
-                <div class="mt-8">
-                    <p>「人と社会を健康に」をミッションとして、全国自治体とともに予防医療事業に取り組むヘルスケアベンチャー。国内約1,700の自治体のうち700を超える自治体で導入され、40％以上のシェアを獲得しています。880万人のデータを社会に還元することで、健康寿命の延伸を推進しています。</p>
-                    <p>2024年1月には、JMDCへ全株式を譲渡し子会社となりました（取得価額は142億円）。両社のノウハウを活かし、事業規模拡大を加速させていく方針です。今を第二創業期として、組織をスケールできる体制・仕組みを構築・強化していくフェーズにあります。</p>
+        <section id="company2" class="bg-white p-6 md:p-10 rounded-2xl shadow-lg border border-gray-100">
+            <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold">経営幹部候補</span>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-black mb-6 leading-tight">株式会社ベネッセスタイルケアグループ</h2>
+            
+            <div class="corporate-overview-box p-6 rounded-lg mb-8">
+                <h3 class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-wider">Corporate Overview</h3>
+                <table class="w-full text-sm">
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32">本社住所</th><td class="py-2">東京都新宿区西新宿2-3-1 新宿モノリスビル5F</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">設立</th><td class="py-2">2025年1月6日（中間持株会社として）</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">従業員数</th><td class="py-2">グループ全体 約20,000名規模</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">上場区分</th><td class="py-2">非上場（ベネッセHD傘下 / 将来的な独立運営視野）</td></tr>
+                </table>
+            </div>
 
-                    <div class="recommendation-box">
-                        <h4 class="text-xl font-black mb-4 flex items-center"><img src="morich_logo.jpg" class="h-6 w-6 mr-2 rounded">【社長候補】募集の背景と現状</h4>
-                        <p class="important-text">今後の事業の舵取りをしていただける取締役候補を探しています。現在の社長は会長のような立場であり、適任者がいれば社長職を譲る意向もあります。</p>
-                        <p>副社長とCFOの両名が数年後に退任を予定しています。CFOの後任は社内で育成中ですが、副社長の業務を引き継ぎ、その後の事業成長にドライブをかけられる人材が求められています。1年間でプロジェクトが進行する事業特性があるため、キャッチアップには1年半から2年が必要とされています。</p>
-                    </div>
+            <div class="space-y-6 text-gray-700 leading-relaxed mb-8">
+                <p>2025年1月6日、ベネッセホールディングスの介護・保育領域を統括する中間持株会社として誕生。「介護と保育の未来を変える、新たなステージへ」を掲げ、地域密着型のサービスと事業成長を両立する次世代型ヘルスケアグループです。<br><br>
+                ベネッセグループ内で教育・介護の両輪を明確に分け、介護領域を独立した経営体として再編。特に介護周辺領域での新規事業やM&Aを加速し、将来的な独立運営・エグジットも視野に入れた体制構築が進められています。<br><br>
+                特にベネッセキャリオス（人材事業）、ベネッセパレット（介護食事業）を今後の成長ドライバーと位置づけ、組織体制・人材採用を強化中です。</p>
+            </div>
 
-                    <div class="ceo-profile">
-                        <h4 class="font-bold text-slate-800 mb-2">代表取締役社長　福吉 潤 氏</h4>
-                        <p class="text-sm">P&G Japan ブランドマネージャーを経てハーバードMBA取得。2008年創業。2021年、慶應義塾大学大学院医学部にて博士号（医学）を取得した、ビジネスとアカデミアを融合させる経営者。</p>
-                    </div>
-                    <div class="mt-10 pt-6 border-t flex flex-wrap gap-6">
-                        <a href="https://cancerscan.jp/" target="_blank" class="font-bold text-morich hover:underline">企業サイトを見る <i class="fas fa-external-link-alt ml-1"></i></a>
-                        <a href="https://note.com/cancerscan_pr" target="_blank" class="font-bold text-morich hover:underline">note：社員インタビュー <i class="fas fa-file-alt ml-1"></i></a>
-                    </div>
-                </div>
+            <div class="morich-highlight mb-8">
+                <p class="text-gray-800">代表「小林仁」様は、森本がリクルート時代から懇意にさせていただいております。小林さま自らのご依頼での案件であり、小林様に直接提案をさせていただきます。単独でのEXITの可能性もございます！</p>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg mb-8">
+                <h4 class="font-bold border-b-2 border-gray-300 mb-4 pb-1">主要グループ会社</h4>
+                <ul class="text-sm space-y-2">
+                    <li><strong>■ ベネッセスタイルケア：</strong>全国展開の介護施設運営（主力事業）</li>
+                    <li><strong>■ ベネッセパレット：</strong>介護食事業。設立6年で売上18億、急成長中。</li>
+                    <li><strong>■ ベネッセキャリオス：</strong>介護・医療人材HRプラットフォーム。</li>
+                </ul>
+            </div>
+
+            <div class="flex flex-wrap gap-4">
+                <a href="https://www.benesse-style-care.co.jp/company" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ グループ公式サイト</a>
+                <a href="https://www.benesse-palette.co.jp/" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ ベネッセパレット</a>
+                <a href="https://www.benesse-careeros.co.jp/" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ ベネッセキャリオス</a>
+                <a href="https://blog.benesse.ne.jp/bh/ja/news/20241202_release.pdf" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ 設立ニュースリリース</a>
             </div>
         </section>
 
-        <section id="cpa" class="company-section company-card">
-            <div class="p-8 md:p-12">
-                <div class="mb-6">
-                    <span class="badge badge-green">IPO準備 N-3期</span>
-                    <span class="badge badge-red">合格占有率60%</span>
-                    <span class="badge badge-dark">会計人材生涯支援</span>
-                </div>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-8 tracking-tight leading-tight">
-                    03. CPAエクセレントパートナーズ株式会社
-                </h2>
-                
-                <div class="mt-8">
-                    <p>公認会計士資格スクール『CPA会計学院』を全国に展開。2023年合格者1,544名のうち786名が受講生と、圧倒的な実績を誇ります。さらに50万人が学ぶeラーニング『CPAラーニング』を運営。設立以来20年以上、一切の資金調達を行わず自己資本のみで成長を続けてきました。</p>
+        <section id="company3" class="bg-white p-6 md:p-10 rounded-2xl shadow-lg border border-gray-100">
+            <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold">役員候補</span>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-black mb-6 leading-tight">株式会社ONODERA USER RUN</h2>
+            
+            <div class="corporate-overview-box p-6 rounded-lg mb-8">
+                <h3 class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-wider">Corporate Overview</h3>
+                <table class="w-full text-sm">
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32">本社住所</th><td class="py-2">東京都千代田区大手町1-1-3 大手センタービル5階</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">設立</th><td class="py-2">2016年11月</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">従業員数</th><td class="py-2">グループ全体 29,638名（2025年4月時点）</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">上場区分</th><td class="py-2">非上場（上場準備中 / N-1フェーズ）</td></tr>
+                </table>
+            </div>
 
-                    <div class="recommendation-box">
-                        <h4 class="text-xl font-black mb-4 flex items-center"><img src="morich_logo.jpg" class="h-6 w-6 mr-2 rounded">morichのオススメPOINT</h4>
-                        <ul class="space-y-3">
-                            <li><i class="fas fa-check-circle text-red-600 mr-2"></i>売上成長率は過去5年間で850%と非常に好調。</li>
-                            <li><i class="fas fa-check-circle text-red-600 mr-2"></i>数年後のIPOを目指し、新規事業やM&A、海外展開も積極的に行う方針。</li>
-                            <li><i class="fas fa-check-circle text-red-600 mr-2"></i>平均年収1,000万円。成果をしっかり評価し社員に還元する文化。</li>
-                            <li><i class="fas fa-check-circle text-red-600 mr-2"></i><strong>直近、副社長はじめ幹部クラス複数名がmorich経由でジョインしています。</strong></li>
-                        </ul>
-                    </div>
+            <div class="space-y-6 text-gray-700 leading-relaxed mb-8">
+                <p>2016年11月設立。海外人材を日本国内に紹介する事業を展開しています。最大の強みは、アジア８カ国に独自の日本語学校を設置し、学生の選抜から教育までを一貫して自社で行っている点です。これにより、単なる紹介にとどまらず、企業に「顔が見える人材」を提供できるという明確な優位性を築いています。<br><br>
+                主に扱うのは「特定技能」の領域で、これまでに約5,500人の特定技能外国人材を日本に紹介しています。2025年売上60億を見込み、約6,000名の入国受け入れを行っています。現在は上場を見据え、さらなる売上拡大を実現するために、国内での営業開拓の強化が喫緊の課題となっています。</p>
+            </div>
 
-                    <div class="ceo-profile text-sm">
-                        <p class="font-bold mb-1">代表取締役　国見 健介 氏</p>
-                        <p>慶應在学中に会計士試験合格。「日本一良い教育機関をつくりたい」という想いから卒業後に創業。ミッションへの共感を何より大事にされています。</p>
-                    </div>
-                    <div class="mt-10 pt-6 border-t flex flex-wrap gap-6">
-                        <a href="https://cpa-excellent-partners.co.jp/" target="_blank" class="font-bold text-morich hover:underline">企業サイトを見る <i class="fas fa-external-link-alt ml-1"></i></a>
-                        <a href="https://www.youtube.com/watch?v=oG7U4z4_Fp0" target="_blank" class="font-bold text-red-600 hover:underline"><i class="fab fa-youtube mr-1"></i> PIVOT対談動画（必見）</a>
-                    </div>
-                </div>
+            <div class="morich-highlight mb-8">
+                <p class="text-gray-800">LEOC社の給食事業が祖業。非上場でありながら、100%株式を保有。横浜FC経営権を持ち、Food creationsをアサヒから買収するなど、極めて勢いのあるグローバルグループです。</p>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg mb-8">
+                <h4 class="font-bold border-b-2 border-gray-300 mb-4 pb-1">親会社：ONODERA GROUP 情報</h4>
+                <ul class="text-sm space-y-1">
+                    <li>・グループ代表CEO：小野寺 裕司 氏</li>
+                    <li>・グループ売上高：1,559億円（2025年3月期）</li>
+                    <li>・主要事業：LEOC（給食）、銀座おのでら（外食）、スポーツ（横浜FC）等</li>
+                </ul>
+            </div>
+
+            <div class="flex flex-wrap gap-4">
+                <a href="https://onodera-user-run.co.jp/" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ 企業公式サイト</a>
+                <a href="https://www.onodera-group.jp/" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ ONODERA GROUP</a>
             </div>
         </section>
 
-        <section id="zige" class="company-section company-card">
-            <div class="p-8 md:p-12">
-                <div class="mb-6">
-                    <span class="badge badge-blue">プライム上場</span>
-                    <span class="badge badge-red">14期連続 増収増益</span>
-                    <span class="badge badge-dark">M&A成長エンジン</span>
-                </div>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-8 tracking-tight">
-                    04. 株式会社じげん
-                </h2>
-                
-                <div class="mt-8">
-                    <p>「生活機会の最大化」を掲げ、40以上の領域でメディア・サービスを展開。情報の非対称性を解消し、最良の意思決定を後押しするプラットフォームを運営しています。ベンチャーのスピード感と、プライム上場企業の資本力・投資ファンドのような目利き力を併せ持っています。</p>
+        <section id="company4" class="bg-white p-6 md:p-10 rounded-2xl shadow-lg border border-gray-100">
+            <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold">経営幹部候補（オープンポジション）</span>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-black mb-6 leading-tight">エン株式会社</h2>
+            
+            <div class="corporate-overview-box p-6 rounded-lg mb-8">
+                <h3 class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-wider">Corporate Overview</h3>
+                <table class="w-full text-sm">
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32">本社住所</th><td class="py-2">東京都新宿区西新宿6-5-1 新宿アイランドタワー</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">設立</th><td class="py-2">2000年1月</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">従業員数</th><td class="py-2">1,993名（連結／2024年3月末現在）</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">上場区分</th><td class="py-2">東証プライム</td></tr>
+                </table>
+            </div>
 
-                    <div class="recommendation-box">
-                        <h4 class="text-xl font-black mb-4 flex items-center"><img src="morich_logo.jpg" class="h-6 w-6 mr-2 rounded">morichのオススメPOINT</h4>
-                        <p class="important-text">明確に「M&A」を成長の柱としており、買収企業の社長・取締役ポストが継続的に生まれ続けています。</p>
-                        <p>各組織がベンチャー企業の集合体のようになっており、一人一人の裁量権が大きいのが特徴です。売上100億円規模の主力事業を作っていくため、ハイレイヤーを積極的に採用中です。弊社経由の入社実績もあり、役員との強いリレーションがあります。</p>
-                    </div>
+            <div class="space-y-6 text-gray-700 leading-relaxed mb-8">
+                <p>「人と企業のより良い出会いを支援する」というミッションのもと、インターネットを活用した求人・転職支援サービスを展開するリーディングカンパニーです。企業の採用成功だけでなく、「入社後の活躍」にも焦点を当てた独自の支援が特徴です。<br><br>
+                創業者であり代表取締役社長である越智通勝氏が提唱する「CSA（Career Selectability＝キャリア自己選択能力）経営」という哲学を核心に据えており、社員を企業の成長を牽引する人材へと育て上げる独自の仕組みを持っています。</p>
+            </div>
 
-                    <div class="ceo-profile">
-                        <h4 class="font-bold text-slate-800 mb-2">CEO　平尾 丈 氏</h4>
-                        <p class="text-sm">リクルート出身。23歳で取締役、30歳で上場、35歳で東証一部へ市場変更を果たした、マーケティングに強みを持つ若きトップランナー。</p>
-                    </div>
-                    <div class="mt-10 pt-6 border-t flex flex-wrap gap-6 text-sm">
-                        <a href="https://zigexn.co.jp/" target="_blank" class="font-bold text-morich hover:underline">企業サイト <i class="fas fa-external-link-alt ml-1"></i></a>
-                        <a href="https://youtu.be/9DXzfhXKMio" target="_blank" class="font-bold text-red-600 hover:underline"><i class="fab fa-youtube mr-1"></i> 役員による会社紹介動画</a>
-                        <a href="https://abrasive-melody-d26.notion.site/ZIGE-N-168ba86425974c20a5c8dd7238739240" target="_blank" class="font-bold text-blue-600 hover:underline">Notion会社資料 <i class="fas fa-info-circle ml-1"></i></a>
-                    </div>
-                </div>
+            <div class="morich-highlight mb-8">
+                <p class="text-gray-800">大変革期にあたり、次代の経営を担う人材を全方位で積極採用中です。越智氏の40年にわたる経営ノウハウを直接受け継ぎ、共に汗を流せる稀有なポジションです。</p>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg mb-8">
+                <h4 class="font-bold border-b-2 border-gray-300 mb-4 pb-1">代表プロフィール：越智 通勝 氏</h4>
+                <p class="text-sm">1951年生まれ。1983年に日本ブレーンセンター設立。2000年にエン・ジャパンとして独立させ、わずか1年6カ月で上場。独自の経営思想「CSA経営」を実践し続けています。<br><br>
+                <span class="text-xs text-red-600 font-bold">※面談前に著書『エン・ジャパンの飛躍を支えたCSA経営』のご一読をお願いしております。</span></p>
+            </div>
+
+            <div class="flex flex-wrap gap-4">
+                <a href="https://corp.en-japan.com/profile/" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ 企業公式サイト</a>
+                <a href="https://csa-association.com/" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ CSA経営について</a>
+                <a href="https://www.enworld.com/newsrelease/news_20250801.html" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ エンワールド・ジャパン新代表就任（morich実績）</a>
             </div>
         </section>
 
-        <section id="cuc" class="company-section company-card">
-            <div class="p-8 md:p-12">
-                <div class="mb-6">
-                    <span class="badge badge-red">新会社 社長/COO候補</span>
-                    <span class="badge badge-dark">エムスリーグループ</span>
-                    <span class="badge badge-blue">グローバル展開</span>
-                </div>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-8 tracking-tight">
-                    05. 株式会社シーユーシー
-                </h2>
-                
-                <div class="mt-8">
-                    <p>「医療という希望をつくる」をミッションに掲げ、国内外の医療機関に対し経営支援・運営支援を展開。超高齢社会という最大の医療課題を持続可能なシステムとして再構築することを目指しています。既に米国内でも34箇所のクリニックを経営し、グローバルに拠点を拡大しています。</p>
-
-                    <div class="recommendation-box">
-                        <h4 class="text-xl font-black mb-4 flex items-center"><img src="morich_logo.jpg" class="h-6 w-6 mr-2 rounded">【機密】ヘルスケア×IT領域の新会社 社長/COO候補</h4>
-                        <p class="important-text">IT×ヘルスケア領域に特化した新会社を設立します。ベンチャースタジオモデルを目指し、事業立ち上げから経営全般を担える方を外部からお迎えしたいと考えています。</p>
-                        <p>収益事業の拡大、M&A戦略立案、AI/DX化の推進など、幹部候補として全社の方向性を共に実行するリーダーを求めています。入社後数カ月で役員へ登用された実績もあり、実力主義のフィールドです。</p>
-                    </div>
-
-                    <div class="ceo-profile">
-                        <h4 class="font-bold text-slate-800 mb-2">代表取締役CEO　濵口 慶太 氏</h4>
-                        <p class="text-sm">リクルート、ジェイ・ウィル・パートナーズ、エムスリーを経て同社を設立。現場を愛し、スピード感溢れる意思決定を重視する経営陣が揃っています。</p>
-                    </div>
-                    <div class="mt-10 pt-6 border-t">
-                        <a href="https://www.cuc-jpn.com/" target="_blank" class="font-bold text-morich hover:underline">企業サイトを見る <i class="fas fa-external-link-alt ml-1"></i></a>
-                    </div>
-                </div>
+        <section id="company5" class="bg-white p-6 md:p-10 rounded-2xl shadow-lg border border-gray-100">
+            <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-red-600 text-white text-xs px-3 py-1 rounded-full font-bold">Confidential</span>
+                <span class="bg-gray-800 text-white text-xs px-3 py-1 rounded-full font-bold">社長/COO候補</span>
             </div>
-        </section>
-
-        <section id="onodera" class="company-section company-card">
-            <div class="p-8 md:p-12">
-                <div class="mb-6">
-                    <span class="badge badge-red">役員候補</span>
-                    <span class="badge badge-green">上場準備フェーズ</span>
-                    <span class="badge badge-dark">特定技能 人材紹介</span>
-                </div>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-8 tracking-tight">
-                    06. 株式会社ONODERA USER RUN
-                </h2>
-                
-                <div class="mt-8">
-                    <p>アジア8カ国に独自の日本語学校を設置し、特定技能外国人材を日本へ紹介する事業を展開。介護・医療・外食を中心に約5,500人の紹介実績を持ち、行政書士法人の内製化など強固な基盤を確立しています。親会社は売上1,559億円を誇る総合企業グループ、ONODERA GROUPです。</p>
-
-                    <div class="recommendation-box">
-                        <h4 class="text-xl font-black mb-4 flex items-center"><img src="morich_logo.jpg" class="h-6 w-6 mr-2 rounded">morichのオススメPOINT</h4>
-                        <p class="important-text">上場を達成するため、最大のボトルネックとなっている「国内マーケットの開拓」を強力に推進する役員候補を求めています。</p>
-                        <p>国内市場における営業戦略の立案、組織の仕組みづくり、その実行・統括を通じて、再現性のある成果モデルを構築することがミッションです。国内の人材派遣事業等で確かな実績を残されてきた方を期待しています。</p>
-                    </div>
-                    <div class="mt-10 pt-6 border-t">
-                        <a href="https://onodera-user-run.co.jp/" target="_blank" class="font-bold text-morich hover:underline">企業サイトを見る <i class="fas fa-external-link-alt ml-1"></i></a>
-                    </div>
-                </div>
+            <h2 class="text-3xl md:text-4xl font-black mb-6 leading-tight">株式会社シーユーシー</h2>
+            
+            <div class="corporate-overview-box p-6 rounded-lg mb-8">
+                <h3 class="text-sm font-bold text-gray-500 mb-3 uppercase tracking-wider">Corporate Overview</h3>
+                <table class="w-full text-sm">
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left w-32">本社住所</th><td class="py-2">東京都港区芝浦3-1−1 msb Tamachi 田町ステーションタワーN 15階</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">設立</th><td class="py-2">2014年8月</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">従業員数</th><td class="py-2">連結 3,743名（2024年3月末現在）</td></tr>
+                    <tr class="border-b border-gray-200"><th class="py-2 text-left">上場区分</th><td class="py-2">東証グロース（エムスリーグループ）</td></tr>
+                </table>
             </div>
-        </section>
 
-        <section id="voicy" class="company-section company-card">
-            <div class="p-8 md:p-12">
-                <div class="mb-6">
-                    <span class="badge badge-red">COO候補</span>
-                    <span class="badge badge-green">N-2期</span>
-                    <span class="badge badge-dark">第2創業期</span>
-                </div>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-8 tracking-tight">
-                    07. 株式会社Voicy
-                </h2>
-                
-                <div class="mt-8">
-                    <p>「音声のインフラ化」を目指すパイオニア。AppleやSpotifyが音声領域へ注力する中、国内プラットフォームとして確固たる地位を築いています。2022年には27.3億円の資金調達を実施し、累計調達額は36億円を突破しています。</p>
-
-                    <div class="recommendation-box">
-                        <h4 class="text-xl font-black mb-4 flex items-center"><img src="morich_logo.jpg" class="h-6 w-6 mr-2 rounded">morichのオススメPOINT（第2創業期の参画）</h4>
-                        <p class="important-text">組織を縮小し、No.2とNo.3が退任するという大規模な人事改革を経て、現在を「第2創業期（Voicy 2.0）」としてリスタートを図っています。</p>
-                        <p>経営を担うリーダー陣の強化が急務。COOに近い立ち位置で、アライアンス、法人営業、新規事業企画など、事業面からの成長ドライブを主導いただくポジションです。2025年2月からN-2期を計画的に進めています。</p>
-                        <p class="mt-4 text-center">
-                            <a href="https://note.com/ogaken/n/n85f5781e443a" target="_blank" class="inline-block bg-morich text-white font-bold py-2 px-6 rounded-full hover:bg-red-700 transition">
-                                緒方CEO note：組織改革の真相
-                            </a>
-                        </p>
-                    </div>
-
-                    <div class="ceo-profile">
-                        <h4 class="font-bold text-slate-800 mb-2">CEO　緒方 憲太郎 氏</h4>
-                        <p class="text-sm">公認会計士。大阪、NY、ロンドン、アブダビでの勤務を経て起業。単なるエンタメではなく「人生の学校」とも言える教養コンテンツの強化に情熱を注いでいます。</p>
-                    </div>
-                    <div class="mt-10 pt-6 border-t">
-                        <a href="https://recruit.voicy.jp/" target="_blank" class="font-bold text-morich hover:underline">採用サイトを見る <i class="fas fa-external-link-alt ml-1"></i></a>
-                    </div>
-                </div>
+            <div class="space-y-6 text-gray-700 leading-relaxed mb-8">
+                <p>「医療という希望をつくる」をミッションに掲げ、国内外の医療機関に対し経営コンサルティング／運営支援を行っています。東証プライム上場エムスリー社のグループ企業であり、2023年6月に上場。<br><br>
+                主軸の病院経営支援に加え、訪問看護、ホスピス、さらには米国でのクリニック経営（34拠点）と、国内外で圧倒的なスピードで成長。現在はAI・DXを活用した「ヘルスケア総合カンパニー化」を目指し、IT×ヘルスケア領域の新会社設立を進めています。</p>
             </div>
-        </section>
 
-        <section id="relive" class="company-section company-card">
-            <div class="p-8 md:p-12">
-                <div class="mb-6">
-                    <span class="badge badge-red">幹部候補 採用</span>
-                    <span class="badge badge-green">前年比2.4倍 成長</span>
-                    <span class="badge badge-dark">令和の虎でブレイク</span>
-                </div>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-8 tracking-tight">
-                    08. 株式会社りらいぶ
-                </h2>
-                
-                <div class="mt-8">
-                    <p>着るだけで身体機能が向上する「リライブシャツ」を開発。介護・医療現場からアスリート、著名人まで広がり、発売2年足らずで累計15万着を突破。前期売上約70億円から、今期は約170億円へと爆発的に成長しています。</p>
-
-                    <div class="recommendation-box">
-                        <h4 class="text-xl font-black mb-4 flex items-center"><img src="morich_logo.jpg" class="h-6 w-6 mr-2 rounded">morichのオススメPOINT</h4>
-                        <p class="important-text">これまで営業活動をせず口コミのみで拡大してきましたが、法人需要の急増に伴い、戦略を立てて組織を統率していく幹部メンバーを募集しています。</p>
-                        <p>自己資本のみの超キャッシュリッチ企業。組織や制度をこれから作っていくフェーズであり、経営者の右腕としてその手腕を振るっていただける環境です。morich代表・森本と社長のリレーションが強い案件です。</p>
-                    </div>
-
-                    <div class="ceo-profile text-sm">
-                        <p class="font-bold mb-1">代表取締役　佐々木 貴史 氏</p>
-                        <p>介護士の妹さんの負担を減らしたいという想いからシャツを開発。「令和の虎」への出演で注目を集める。情熱的で利他的な経営者です。</p>
-                    </div>
-                    <div class="mt-10 pt-6 border-t">
-                        <a href="https://www.reliveshirts.com/" target="_blank" class="font-bold text-morich hover:underline">企業サイトを見る <i class="fas fa-external-link-alt ml-1"></i></a>
-                    </div>
-                </div>
+            <div class="morich-highlight mb-8">
+                <p class="text-gray-800">経営陣との強固なリレーションがあり、過去複数名の入社実績がございます。今回はIT×ヘルスケア領域の新会社社長/COO候補という、非常に高い裁量と期待が込められた特注案件です。</p>
             </div>
-        </section>
 
-        <section id="lvn" class="company-section company-card">
-            <div class="p-8 md:p-12">
-                <div class="mb-6">
-                    <span class="badge badge-red">COO候補</span>
-                    <span class="badge badge-blue">グロース上場</span>
-                    <span class="badge badge-dark">不動産×DX</span>
-                </div>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-8 tracking-tight">
-                    09. リビン・テクノロジーズ株式会社
-                </h2>
-                
-                <div class="mt-8">
-                    <p>不動産マッチング『リビンマッチ』を軸に、業界のDX支援ツールを展開。国内最大級の規模を誇り、成約ベースの成功報酬モデルで高い競争力を持ちます。現在は事業別ユニット制への移行を進め、自律型組織への強化を図っています。</p>
-
-                    <div class="recommendation-box">
-                        <h4 class="text-xl font-black mb-4 flex items-center"><img src="morich_logo.jpg" class="h-6 w-6 mr-2 rounded">【COO候補】としての推薦背景</h4>
-                        <p class="important-text">現在は代表自らが戦略・組織開発の細部まで担っていますが、実務を完全に任せられるCOO候補を求めています。</p>
-                        <p>ビジネスサイドにおける戦略立案と実行をリードし、全社横断での全体最適を実現できる経営幹部の存在が求められています。次世代の組織開発を進め、優秀な若手が育つ仕組みを構築することも重要ミッションです。</p>
-                    </div>
-
-                    <div class="ceo-profile">
-                        <h4 class="font-bold text-slate-800 mb-2">代表取締役社長　川合 大無 氏</h4>
-                        <p class="text-sm">サイバーエージェント出身。2004年に創業し上場。代表が出演した「morichの部屋（YouTube）」もぜひご視聴ください。</p>
-                    </div>
-                    <div class="mt-10 pt-6 border-t flex flex-wrap gap-6">
-                        <a href="https://www.lvn.co.jp/" target="_blank" class="font-bold text-morich hover:underline">企業サイトを見る <i class="fas fa-external-link-alt ml-1"></i></a>
-                        <a href="https://morich-to.com/post-7888/" target="_blank" class="font-bold text-red-600 hover:underline"><i class="fab fa-youtube mr-1"></i> 対談動画（morichの部屋）</a>
-                    </div>
-                </div>
+            <div class="bg-gray-50 p-6 rounded-lg mb-8">
+                <h4 class="font-bold border-b-2 border-gray-300 mb-4 pb-1">代表プロフィール：濵口 慶太 氏</h4>
+                <p class="text-sm">名古屋大学卒、ミシガン大学MBA取得。リクルート、ジェイ・ウィル・パートナーズ、エムスリーを経て、2014年CUC設立。変革を継続する姿勢「Change Until Change」を体現しています。</p>
             </div>
-        </section>
 
-        <section id="m3" class="company-section company-card mb-20">
-            <div class="p-8 md:p-12">
-                <div class="mb-6">
-                    <span class="badge badge-red">特命オーダー</span>
-                    <span class="badge badge-blue">プライム上場</span>
-                    <span class="badge badge-dark">次世代 経営人材</span>
-                </div>
-                <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-8 tracking-tight">
-                    10. エムスリー株式会社（M3, Inc.）
-                </h2>
-                
-                <div class="mt-8">
-                    <p>「インターネットを通じて健康で長生きする人を増やす」という崇高なミッションを掲げ、医療界をデジタルで革新。2026年3月期も大幅な増収増益を継続しており、日本を代表するヘルステックカンパニーです。</p>
-
-                    <div class="recommendation-box">
-                        <h4 class="text-xl font-black mb-4 flex items-center"><img src="morich_logo.jpg" class="h-6 w-6 mr-2 rounded">morichからの最新情報</h4>
-                        <p class="important-text">「幹部候補となりうる経営人材が欲しい」という特別なオーダーをいただいております。</p>
-                        <p>週明けに詳細な商談を予定しております。成長機会を迅速に捉える文化があり、高い視座と戦略的思考を持つ方を募集。どこよりも早くコンテクストをお伝えいたします。</p>
-                    </div>
-
-                    <div class="ceo-profile">
-                        <h4 class="font-bold text-slate-800 mb-2">代表取締役社長　谷村 格 氏</h4>
-                        <p class="text-sm">マッキンゼー パートナーを経て創業。戦略的視点とデータ重視の意思決定で、医療×ITの中長期戦略を明確に描くトップリーダーです。</p>
-                    </div>
-                    <div class="mt-10 pt-6 border-t">
-                        <a href="http://corporate.m3.com/" target="_blank" class="font-bold text-morich hover:underline">企業サイトを見る <i class="fas fa-external-link-alt ml-1"></i></a>
-                    </div>
-                </div>
+            <div class="flex flex-wrap gap-4">
+                <a href="https://www.cuc-jpn.com/" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ 企業公式サイト</a>
+                <a href="https://note.com/cuc_com/m/med8286f49c8d" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ CUCのカルチャー(note)</a>
+                <a href="https://www.cuc-jpn.com/company/philosophy/" target="_blank" class="text-blue-600 hover:underline text-sm font-bold">▶ 経営理念</a>
             </div>
         </section>
 
     </main>
 
-    <footer class="bg-slate-900 text-white py-12 px-6">
-        <div class="max-w-4xl mx-auto text-center">
-            <img src="morich_logo.jpg" alt="morich logo" class="h-16 w-16 rounded mb-6 mx-auto bg-white p-1">
-            <p class="text-xl font-bold mb-2">新谷隼人さまの次なる挑戦を</p>
-            <p class="text-slate-400 text-sm mb-6">morichが全力でサポートさせていただきます。</p>
-            <div class="text-xs text-slate-500 italic">
-                &copy; morich All Rights Reserved.
-            </div>
-        </div>
+    <footer class="mt-20 py-10 border-t border-gray-200 text-center">
+        <img src="morich_logo.jpg" alt="morich logo" class="h-8 mx-auto mb-4">
+        <p class="text-sm text-gray-400">&copy; 2026 morich Co., Ltd. All Rights Reserved.</p>
     </footer>
 
-    <div class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur border-t py-4 px-6 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] z-40">
-        <div class="max-w-4xl mx-auto flex items-center justify-between">
-            <div class="flex items-center">
-                <img src="morich_logo.jpg" class="h-8 w-8 rounded mr-3 bg-white border p-0.5">
-                <span class="font-bold text-slate-800 text-sm">Hayato Shinya Specialized Page</span>
-            </div>
-            <div class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Confidential</div>
-        </div>
-    </div>
-
+    <script>
+        // スムーススクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
